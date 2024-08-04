@@ -36,8 +36,8 @@ def input_pdf_setup(uploaded_file):
         raise FileNotFoundError("No file uploaded")
 
 # Streamlit App
-st.set_page_config(page_title="ATS Resume Expert")
-st.header("ATS Tracking System")
+st.set_page_config(page_title="Resume Expert")
+st.header("Resume Tracking System")
 input_text = st.text_area("Job Description:", key="input")
 uploaded_file = st.file_uploader("Upload your resume in PDF form.", type=["pdf"])
 
