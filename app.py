@@ -131,3 +131,12 @@ elif submit6:
         st.write(response)
     else:
         st.write("Please upload the resume")
+
+# Footer
+st.markdown(
+    """
+    ---
+    Developed by Manas Singhal
+    Graphic Era Hill University,Dehradun
+    """
+)
